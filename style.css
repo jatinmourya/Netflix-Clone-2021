@@ -536,8 +536,8 @@ section {
 }
 
 @media only screen and (max-width: 600px) {
-    Section{
-         Display:none;
+    section{
+          display: none;
     }
 
 
