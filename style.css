@@ -534,4 +534,11 @@ section {
 .sec7 .content p {
   font-size: 13px;
 }
-/*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width: 600px) {
+    Section{
+         Display:none;
+    }
+
+
+}
