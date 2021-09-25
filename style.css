@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Netflix Sans", "Helvetica Neue", Helvetica;
 }
 
@@ -21,16 +21,30 @@ section {
 
 .sec1 {
   height: 742px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #000000ee), color-stop(50%, #00000070), to(#000000ee)), url("images/Netflix-Background.jpg");
-  background: linear-gradient(to top, #000000ee 0, #00000070 50%, #000000ee 100%), url("images/Netflix-Background.jpg");
+  background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, #000000ee),
+      color-stop(50%, #00000070),
+      to(#000000ee)
+    ),
+    url("images/Netflix-Background.jpg");
+  background: linear-gradient(
+      to top,
+      #000000ee 0,
+      #00000070 50%,
+      #000000ee 100%
+    ),
+    url("images/Netflix-Background.jpg");
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .sec1 nav {
@@ -41,11 +55,11 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .sec1 nav .logo {
@@ -95,11 +109,11 @@ section {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin: auto auto;
   padding: 75px 0;
 }
@@ -155,8 +169,8 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   place-items: center;
 }
 
@@ -180,8 +194,8 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .sec2 .content .text {
@@ -220,8 +234,8 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .sec3 .content .imge {
@@ -229,8 +243,8 @@ section {
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   height: 350px;
   width: 500px;
   background: url("images/iPhone.jpg");
@@ -253,8 +267,8 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .sec3 .content .imge .download img {
@@ -309,8 +323,8 @@ section {
   width: -moz-fit-content;
   width: fit-content;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -345,8 +359,8 @@ section {
   width: -moz-fit-content;
   width: fit-content;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -387,11 +401,11 @@ section {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -418,11 +432,11 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-size: 26px;
   height: 75px;
   padding: 0 30px;
@@ -466,8 +480,8 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   place-items: center;
 }
 
@@ -507,7 +521,7 @@ section {
   margin: 30px 0;
   max-width: 900px;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -535,10 +549,8 @@ section {
   font-size: 13px;
 }
 
-@media only screen and (max-width: 600px) {
-    section{
-          display: none;
-    }
-
-
+@media (max-width: 900px) {
+  .sec {
+    display: none;
+  }
 }
