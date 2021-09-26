@@ -198,14 +198,11 @@
 
 
     <!-- JavaScript -->
-
-    <script>
-      let var1 = document.querySelector(".sec"); 
-
-      if ((var1.style.display != "none")) {
-        window.alert("please view this on desktop");
+ <script>
+      const width = window.innerWidth;
+      if (width<700){
+        alert('please open this on desktop')
       }
-      
     </script>
 
 
