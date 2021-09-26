@@ -549,8 +549,15 @@ section {
   font-size: 13px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   .sec {
     display: none;
   }
-}
+  body::after {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    content: "Please open this on desktop";
+    font-size: 25px;
+  }
+} 
